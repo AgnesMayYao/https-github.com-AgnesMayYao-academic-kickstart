@@ -10,6 +10,6 @@ view: 4
 
 # Optional header image (relative to `static/img/` folder).
 header:
-  caption: ""
+  caption: "Automated Detection of Infant Holding Using Wearable Sensing: Implications for Developmental Science and Intervention"
   image: ""
 ---
