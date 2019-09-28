@@ -27,7 +27,7 @@ interests:
 
 education:
   courses:
-  - course: PhD in Artificial Intelligence
+  - course: PhD in Electrical and Computer Engineering
     institution: The University of Texas at Austin
     year: 2023 (Expected)
   - course: MSc in Computer Science
