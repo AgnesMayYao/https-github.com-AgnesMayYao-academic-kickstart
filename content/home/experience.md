@@ -10,7 +10,7 @@ subtitle = ""
 
 # Date format for experience
 #   Refer to https://sourcethemes.com/academic/docs/customization/#date-format
-date_format = "Jan 2006"
+date_format = "2006-01"
 
 # Experiences.
 #   Add/remove as many `[[experience]]` blocks below as you like.
@@ -39,9 +39,10 @@ date_format = "Jan 2006"
   location = "Seattle, WA"
   date_start = "2017-05"
   date_end = "2017-07"
-  description = """Worked with Amazon Search User Experience
-  Used natural language processing to analyze user's queries and search history
-  Developed an innovative model for recommendation
-  Expected annual sales in US grow by 101.7 million dollars."""
+  description = """
+  * Worked with Amazon Search User Experience
+  * Used natural language processing to analyze user's queries and search history
+  * Developed an innovative model for recommendation
+  * Expected annual sales in US grow by 101.7 million dollars."""
 
 +++
