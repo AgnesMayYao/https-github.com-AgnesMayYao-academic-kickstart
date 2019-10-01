@@ -11,7 +11,7 @@ subtitle = ""
 
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.
-  columns = "2"
+  columns = "4"
 
 [design.background]
   # Apply a background color, gradient, or image.
@@ -31,7 +31,7 @@ subtitle = ""
   # image_darken = 0.6  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
 
   # Text color (true=light or false=dark).
-  text_color_light = true
+  # text_color_light = true
 
 [design.spacing]
   # Customize the section spacing. Order is top, right, bottom, left.
@@ -46,3 +46,9 @@ subtitle = ""
 +++
 
 {{< gallery album="gallery" >}} 
+
+gallery_item:
+- album: gallery
+  image: IMG_0358.jpg
+  caption: Write your image caption here
+  
