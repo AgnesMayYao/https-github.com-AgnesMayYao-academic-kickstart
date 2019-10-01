@@ -49,6 +49,6 @@ subtitle = ""
 
 gallery_item:
 - album: gallery
-  image: IMG_0358.jpg
+  image: IMG_0385.jpg
   caption: Write your image caption here
   
