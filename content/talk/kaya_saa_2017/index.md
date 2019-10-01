@@ -5,14 +5,14 @@ title = "High-density markers of mother-infant bio-behavioral activity in the wi
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
 date = 2017-06-16T13:00:00
-date_end = 2030-06-01T15:00:00
+# date_end = 2030-06-01T15:00:00
 all_day = false
 
 # Schedule page publish date (NOT talk date).
 publishDate = 2017-01-01T00:00:00
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["Kaya de Barbaro", "Xuewen Yao", "Beiwen Liu", "Junqing Wang", "Dominique Denbow", "Alessandro Montanari", "Geraint Jones", "Nikki Newhouse", "Aisling O’Kane", and "Sherryl Goodman"]
+authors = ["Kaya de Barbaro", "Xuewen Yao", "Beiwen Liu", "Junqing Wang", "Dominique Denbow", "Alessandro Montanari", "Geraint Jones", "Nikki Newhouse", "Aisling O’Kane", "Sherryl Goodman"]
 
 # Location of event.
 location = "Luxembourg"
