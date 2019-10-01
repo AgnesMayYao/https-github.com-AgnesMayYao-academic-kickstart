@@ -30,7 +30,7 @@ summary = ""
 doi = "10.1109/CyberSA.2018.8551477"
 
 # Is this a featured publication? (true/false)
-featured = false
+featured = true
 
 # Tags (optional).
 #   Set `tags = []` for no tags, or use the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
