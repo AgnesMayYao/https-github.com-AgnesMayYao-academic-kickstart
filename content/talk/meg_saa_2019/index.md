@@ -40,7 +40,7 @@ tags = []
 #   E.g. `slides = "example-slides"` references 
 #   `content/slides/example-slides.md`.
 #   Otherwise, set `slides = ""`.
-slides = "example-slides"
+slides = ""
 
 # Optional filename of your slides within your talk folder or a URL.
 url_slides = "/files/meg_saa_2019.pdf"
