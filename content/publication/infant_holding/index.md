@@ -1,6 +1,6 @@
 +++
 title = "Automated Detection of Infant Holding Using Wearable Sensing: Implications for Developmental Science and Intervention"
-date = 2013-07-01T00:00:00
+date = 2019-06-01T00:00:00
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
 authors = ["Xuewen Yao", "Thomas Plötz", "Mckensey Johnson", "Kaya de Barbaro"]
@@ -43,7 +43,7 @@ tags = ["machine learning", "activity detection", "mother-infant research"]
 #   E.g. `projects = ["deep-learning"]` references 
 #   `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
-projects = [""]
+projects = []
 
 # Links (optional).
 url_pdf = "https://www.researchgate.net/publication/333990676_Automated_Detection_of_Infant_Holding_Using_Wearable_Sensing_Implications_for_Developmental_Science_And_Intervention"
@@ -58,7 +58,7 @@ url_source = ""
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
-links = [{name = "Custom Link", url = "http://example.org"}]
+# links = [{name = "Custom Link", url = "http://example.org"}]
 
 # Does this page contain LaTeX math? (true/false)
 math = true
@@ -67,7 +67,7 @@ math = true
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 [image]
   # Caption (optional)
-  caption = "Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)"
+  # caption = "Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)"
 
   # Focal point (optional)
   # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
