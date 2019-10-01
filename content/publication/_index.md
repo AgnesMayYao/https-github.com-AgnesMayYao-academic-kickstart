@@ -1,5 +1,5 @@
 ---
-title: Automated Detection of Infant Holding Using Wearable Sensing: Implications for Developmental Science and Intervention
+title: Publications
 
 # View.
 #   1 = List
