@@ -24,8 +24,8 @@ external_link = ""
 slides = ""
 
 # Links (optional).
-url_pdf = ""
-url_slides = "/files/Final_Report_Li_Liu_Yao.pdf"
+url_pdf = "/files/Final_Report_Li_Liu_Yao.pdf"
+url_slides = ""
 url_video = ""
 url_code = ""
 
