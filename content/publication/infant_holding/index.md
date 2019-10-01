@@ -73,5 +73,3 @@ math = true
   # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
   focal_point = "Right"
 +++
-
-# More detail can easily be written here using *Markdown* and $\rm \LaTeX$ math code.
