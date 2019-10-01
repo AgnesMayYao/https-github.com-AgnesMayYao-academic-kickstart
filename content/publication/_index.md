@@ -1,5 +1,5 @@
 ---
-title: Publications
+title: Automated Detection of Infant Holding Using Wearable Sensing: Implications for Developmental Science and Intervention
 
 # View.
 #   1 = List
@@ -10,6 +10,6 @@ view: 4
 
 # Optional header image (relative to `static/img/` folder).
 header:
-  caption: "Automated Detection of Infant Holding Using Wearable Sensing: Implications for Developmental Science and Intervention"
+  caption: ""
   image: ""
 ---
