@@ -1,12 +1,12 @@
 +++
 # Project title.
-title = "Internal Project"
+title = "Towards Understanding Regularization in Normalization Layers in Deep Neural Networks"
 
 # Date this page was created.
-date = 2016-04-27T00:00:00
+date = 2019-05-01T00:00:00
 
 # Project summary to display on homepage.
-summary = "An example of using the in-built project page."
+summary = "Compared the regularization effect of batch normalization, layer normalization, instance normalization, group normalization and dropout using Convolutional Neural Nets on CIFAR-10 dataset"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
@@ -21,17 +21,17 @@ external_link = ""
 #   E.g. `slides = "example-slides"` references 
 #   `content/slides/example-slides.md`.
 #   Otherwise, set `slides = ""`.
-slides = "example-slides"
+slides = ""
 
 # Links (optional).
 url_pdf = ""
-url_slides = ""
+url_slides = "/files/batch_norm.pdf"
 url_video = ""
 url_code = ""
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
-links = [{icon_pack = "fab", icon="twitter", name="Follow", url = "https://twitter.com/georgecushen"}]
+# links = [{icon_pack = "fab", icon="twitter", name="Follow", url = "https://twitter.com/georgecushen"}]
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your project's folder. 
