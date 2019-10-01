@@ -30,19 +30,19 @@ date_format = "2006-01-02"
   * Incorporating the idea of individual differences in feature engineering and modelling
   """
   
- [[experience]]
-    title = "Graduate Research Assistant"
-    company = "Georgia Institute of Technology"
-    company_url = ""
-    location = "Atlanta, GA"
-    date_start = "2016-08-26"
-    date_end = "2018-05-04"
-    description = """
-    * Worked on activity recognition using wearable motion sensors 
-    * Soldered and compared the performance of multiple motion sensors 
-    * Synchronized data from different sensors to a single platform, examined plots of raw data, video annotations and implemented feature engineering
-    * Detected patterns of proximity and physical contact and analyzed stress-related behaviors 
-    """
+[[experience]]
+  title = "Graduate Research Assistant"
+  company = "Georgia Institute of Technology"
+  company_url = ""
+  location = "Atlanta, GA"
+  date_start = "2016-08-26"
+  date_end = "2018-05-04"
+  description = """
+  * Worked on activity recognition using wearable motion sensors 
+  * Soldered and compared the performance of multiple motion sensors 
+  * Synchronized data from different sensors to a single platform, examined plots of raw data, video annotations and implemented feature engineering
+  * Detected patterns of proximity and physical contact and analyzed stress-related behaviors 
+  """
   
  
 [[experience]]
