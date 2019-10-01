@@ -3,7 +3,7 @@ title = "Automated Detection of Infant Holding Using Wearable Sensing: Implicati
 date = 2019-06-01T00:00:00
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["Xuewen Yao", "Thomas Plötz", "Mckensey Johnson", "Kaya de Barbaro"]
+authors = ["Xuewen Yao", "Thomas Plötz", "McKensey Johnson", "Kaya de Barbaro"]
 
 
 # Publication type.
