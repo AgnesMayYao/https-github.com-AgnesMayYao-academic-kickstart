@@ -1,9 +1,11 @@
 +++
 title = "Redesign of Gaussian Mixture Model for Efficient and Privacy-preserving Speaker Recognition"
-date = 2015-09-01T00:00:00
+date = 2018-06-01T00:00:00
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["GA Cushen"]
+authors = ["Rahulamathavan Sutharsini", "Xuewen Yao", "Yogachandran Rahulamathavan", "Kanapathippillai Cumanan", "Muttukrishnan Rajarajan""]
+	
+
 
 # Publication type.
 # Legend:
@@ -14,7 +16,7 @@ authors = ["GA Cushen"]
 # 4 = Report
 # 5 = Book
 # 6 = Book section
-publication_types = ["2"]
+publication_types = ["1"]
 
 # Publication name and optional abbreviated version.
 publication = "In *2018 International Conference On Cyber Situational Awareness, Data Analytics And Assessment*, IEEE."
@@ -34,7 +36,7 @@ featured = true
 
 # Tags (optional).
 #   Set `tags = []` for no tags, or use the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
-tags = []
+tags = ["machine learning", "speaker authentication"]
 
 # Projects (optional).
 #   Associate this publication with one or more of your projects.
@@ -50,10 +52,10 @@ projects = []
 #   E.g. `slides = "example-slides"` references 
 #   `content/slides/example-slides.md`.
 #   Otherwise, set `slides = ""`.
-slides = "example-slides"
+#slides = "example-slides"
 
 # Links (optional).
-url_pdf = "http://arxiv.org/pdf/1512.04133v1"
+url_pdf = "https://www.researchgate.net/publication/329317179_Redesign_of_Gaussian_Mixture_Model_for_Efficient_and_Privacy-preserving_Speaker_Recognition"
 url_preprint = ""
 url_code = ""
 url_dataset = ""
