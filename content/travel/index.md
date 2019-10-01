@@ -39,19 +39,10 @@ subtitle = ""
 
 [advanced]
  # Custom CSS. 
- css_style = ""
+ # css_style = ""
  
  # CSS class.
- css_class = ""
+ # css_class = ""
 +++
-
-
-(https://academic-demo.netlify.com/). The easiest way to publish your new site to the internet is with [Netlify](https://sourcethemes.com/academic/docs/deployment/).
-
-- [View the documentation](https://sourcethemes.com/academic/docs/)
-- [Ask a question](http://discuss.gohugo.io/)
-- [Request a feature or report a bug](https://github.com/gcushen/hugo-academic/issues)
-- Updating? View the [Update Guide](https://sourcethemes.com/academic/docs/update/) and [Release Notes](https://sourcethemes.com/academic/updates/)
-
 
 {{< gallery album="gallery" >}} 
