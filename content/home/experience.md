@@ -25,13 +25,26 @@ date_format = "2006-01-02"
   date_start = "2018-08-26"
   date_end = ""
   description = """
-  Responsibilities include:
-  
-  * Analysing
-  * Modelling
-  * Deploying
+    * Collected and cleaned 60 hours of home recording audio data
+    * Working on audio classification of infant fussing and crying using deep neural nets
+    * Incorporating the idea of individual differences in feature engineering and modelling
   """
-
+  
+ [[experience]]
+    title = "Graduate Research Assistant"
+    company = "Georgia Institute of Technology"
+    company_url = ""
+    location = "Atlanta, GA"
+    date_start = "2016-08-26"
+    date_end = "2018-05-04"
+    description = """
+      * Worked on activity recognition using wearable motion sensors 
+      * Soldered and compared the performance of multiple motion sensors 
+      * Synchronized data from different sensors to a single platform, examined plots of raw data, video annotations and implemented feature engineering
+      * Detected patterns of proximity and physical contact and analyzed stress-related behaviors 
+    """
+  
+ 
 [[experience]]
   title = "Software Development Engineer Intern"
   company = "Amazon.com"
@@ -45,5 +58,21 @@ date_format = "2006-01-02"
   * Developed an innovative model for recommendation
   * Expected annual sales in US grow by 101.7 million dollars.
   """
+  
+ [[experience]]
+  title = "Junior Researcher"
+  company = "City University London"
+  company_url = ""
+  location = "London, UK"
+  date_start = "2015-06-01"
+  date_end = "2015-08-01"
+  description = """
+  * Worked on privacy-preserving speaker verification and identification
+  * Self-studied and programmed MFCC (Mel-Frequency Cesptral Coefficients) and GMM (Gaussian Mixture Models) to achieve speaker verification in Matlab
+  * Implemented randomization on speaker verification and proved its feasibility
+  * Researched on real-life applications in speaker authentication 
+  """
+
+
 
 +++
