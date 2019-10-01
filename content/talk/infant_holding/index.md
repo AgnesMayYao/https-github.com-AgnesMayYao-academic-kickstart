@@ -1,30 +1,30 @@
 +++
-title = "Example Talk"
+title = "Automated Detection of Infant Holding and Carrying Behaviors via Body-Worn Motion Sensors"
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date = 2030-06-01T13:00:00
-date_end = 2030-06-01T15:00:00
-all_day = false
+date = 2019-03-22T13:00:00
+# date_end = 2030-06-01T15:00:00
+all_day = true
 
 # Schedule page publish date (NOT talk date).
 publishDate = 2017-01-01T00:00:00
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = []
+authors = ["Xuewen Yao", "Thomas Ploetz", "McKensey Johnson", "Kaya de Barbaro"]
 
 # Location of event.
-location = "London, United Kingdom"
+location = "Baltimore, Maryland, USA"
 
 # Name of event and optional event URL.
-event = "Ubicomp"
-event_url = "https://example.org"
+event = "2019 Society for Research in Child Development Biennial Meeting"
+event_url = "https://www.srcd.org/event/srcd-2019-biennial-meeting"
 
 # Abstract. What's your talk about?
 abstract = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam."
 
 # Summary. An optional shortened abstract.
-summary = "An example talk using Academic's Markdown slides feature."
+summary = ""
 
 # Is this a featured talk? (true/false)
 featured = true
@@ -50,7 +50,7 @@ url_slides = ""
 #   E.g. `projects = ["deep-learning"]` references 
 #   `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
-projects = ["internal-project"]
+#projects = ["internal-project"]
 
 # Links (optional).
 url_pdf = ""
