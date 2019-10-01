@@ -1,6 +1,6 @@
 +++
 # Project title.
-title = "Planet: Understanding the Amazon from Space (Kaggle"
+title = "Planet: Understanding the Amazon from Space (Kaggle)"
 
 # Date this page was created.
 date = 2017-12-01T00:00:00
