@@ -43,6 +43,7 @@ date_format = "2006-01"
   * Worked with Amazon Search User Experience
   * Used natural language processing to analyze user's queries and search history
   * Developed an innovative model for recommendation
-  * Expected annual sales in US grow by 101.7 million dollars."""
+  * Expected annual sales in US grow by 101.7 million dollars.
+  """
 
 +++
