@@ -10,7 +10,7 @@ summary = "Compared the regularization effect of batch normalization, layer norm
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["Deep Learning"]
+tags = ["deep learning"]
 
 # Optional external URL for project (replaces project detail page).
 external_link = ""
