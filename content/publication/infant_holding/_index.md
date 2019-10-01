@@ -1,9 +1,10 @@
 +++
-title = "Mobile visual clothing search"
+title = "Automated Detection of Infant Holding Using Wearable Sensing: Implications for Developmental Science and Intervention"
 date = 2013-07-01T00:00:00
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["GA Cushen", "MS Nixon"]
+authors = ["Xuewen Yao", "Thomas Plötz", "Mckensey Johnson", "Kaya de Barbaro"]
+
 
 # Publication type.
 # Legend:
@@ -14,27 +15,27 @@ authors = ["GA Cushen", "MS Nixon"]
 # 4 = Report
 # 5 = Book
 # 6 = Book section
-publication_types = ["1"]
+publication_types = ["2"]
 
 # Publication name and optional abbreviated version.
-publication = "In *International Conference on Multimedia and Expo Workshops (ICMEW)*, IEEE."
-publication_short = "In *ICMEW*"
+publication = "In *Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT)*, ACM."
+publication_short = "In *IMWUT*"
 
 # Abstract.
-abstract = "We present a mobile visual clothing search system whereby a smart phone user can either choose a social networking photo or take a new photo of a person wearing clothing of interest and search for similar clothing in a retail database. From the query image, the person is detected, clothing is segmented, and clothing features are extracted and quantized. The information is sent from the phone client to a server, where the feature vector of the query image is used to retrieve similar clothing products from online databases. The phone's GPS location is used to re-rank results by retail store location. State of the art work focuses primarily on the recognition of a diverse range of clothing offline and pays little attention to practical applications. Evaluated on a challenging dataset, the system is relatively fast and achieves promising results."
+abstract = "Physical contact is critical for children's physical and emotional growth and well-being. Previous studies of physical contact are limited to relatively short periods of direct observation and self-report methods. These methods limit researchers' understanding of the natural variation in physical contact across families, and its specific impacts on child development. In this study we develop a mobile sensing platform that can provide objective, unobtrusive, and continuous measurements of physical contact in naturalistic home interactions. Using commercially available motion detectors, our model reaches an accuracy of 0.870 (std: 0.059) for a second-by-second binary classification of holding. In addition, we detail five assessment scenarios applicable to the development of activity recognition models for social science research, where required accuracy may vary as a function of the intended use. Finally, we propose a grand vision for leveraging mobile sensors to access high-density markers of multiple determinants of early parent-child interactions, with implications for basic science and intervention."
 
 # Summary. An optional shortened abstract.
 summary = "A mobile visual clothing search system is presented whereby a smart phone user can either choose a social networking image or capture a new photo of a person wearing clothing of interest and search for similar clothing in a large cloud-based ecommerce database. The phone's GPS location is used to re-rank results by retail store location, to inform the user of local stores where similar clothing items can be tried on."
 
 # Digital Object Identifier (DOI)
-doi = ""
+doi = "10.1145/3328935"
 
 # Is this a featured publication? (true/false)
 featured = true
 
 # Tags (optional).
 #   Set `tags = []` for no tags, or use the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
-tags = []
+tags = ["machine learning", "activity detection", "mother-infant research"]
 
 # Projects (optional).
 #   Associate this publication with one or more of your projects.
@@ -42,7 +43,7 @@ tags = []
 #   E.g. `projects = ["deep-learning"]` references 
 #   `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
-projects = ["internal-project"]
+projects = [""]
 
 # Links (optional).
 url_pdf = "http://eprints.soton.ac.uk/352095/1/Cushen-IMV2013.pdf"
