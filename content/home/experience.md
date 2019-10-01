@@ -25,9 +25,9 @@ date_format = "2006-01-02"
   date_start = "2018-08-26"
   date_end = ""
   description = """
-    * Collected and cleaned 60 hours of home recording audio data
-    * Working on audio classification of infant fussing and crying using deep neural nets
-    * Incorporating the idea of individual differences in feature engineering and modelling
+  * Collected and cleaned 60 hours of home recording audio data
+  * Working on audio classification of infant fussing and crying using deep neural nets
+  * Incorporating the idea of individual differences in feature engineering and modelling
   """
   
  [[experience]]
@@ -38,10 +38,10 @@ date_format = "2006-01-02"
     date_start = "2016-08-26"
     date_end = "2018-05-04"
     description = """
-      * Worked on activity recognition using wearable motion sensors 
-      * Soldered and compared the performance of multiple motion sensors 
-      * Synchronized data from different sensors to a single platform, examined plots of raw data, video annotations and implemented feature engineering
-      * Detected patterns of proximity and physical contact and analyzed stress-related behaviors 
+    * Worked on activity recognition using wearable motion sensors 
+    * Soldered and compared the performance of multiple motion sensors 
+    * Synchronized data from different sensors to a single platform, examined plots of raw data, video annotations and implemented feature engineering
+    * Detected patterns of proximity and physical contact and analyzed stress-related behaviors 
     """
   
  
