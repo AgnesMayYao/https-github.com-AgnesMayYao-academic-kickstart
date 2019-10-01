@@ -3,7 +3,7 @@ title = "Redesign of Gaussian Mixture Model for Efficient and Privacy-preserving
 date = 2018-06-01T00:00:00
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["Rahulamathavan Sutharsini", "Xuewen Yao", "Yogachandran Rahulamathavan", "Kanapathippillai Cumanan", "Muttukrishnan Rajarajan""]
+authors = ["Rahulamathavan Sutharsini", "Xuewen Yao", "Yogachandran Rahulamathavan", "Kanapathippillai Cumanan", "Muttukrishnan Rajarajan"]
 	
 
 
