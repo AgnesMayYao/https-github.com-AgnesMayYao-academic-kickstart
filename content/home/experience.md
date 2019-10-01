@@ -10,7 +10,7 @@ subtitle = ""
 
 # Date format for experience
 #   Refer to https://sourcethemes.com/academic/docs/customization/#date-format
-date_format = "2006-01"
+date_format = "2006-01-02"
 
 # Experiences.
 #   Add/remove as many `[[experience]]` blocks below as you like.
@@ -22,7 +22,7 @@ date_format = "2006-01"
   company = "The University of Texas at Austin"
   company_url = ""
   location = "Austin, TX"
-  date_start = "2018-08"
+  date_start = "2018-08-26"
   date_end = ""
   description = """
   Responsibilities include:
@@ -37,8 +37,8 @@ date_format = "2006-01"
   company = "Amazon.com"
   company_url = ""
   location = "Seattle, WA"
-  date_start = "2017-05"
-  date_end = "2017-07"
+  date_start = "2017-05-09"
+  date_end = "2017-07-30"
   description = """
   * Worked with Amazon Search User Experience
   * Used natural language processing to analyze user's queries and search history
