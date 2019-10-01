@@ -25,7 +25,7 @@ publication_short = "In *IMWUT*"
 abstract = "Physical contact is critical for children's physical and emotional growth and well-being. Previous studies of physical contact are limited to relatively short periods of direct observation and self-report methods. These methods limit researchers' understanding of the natural variation in physical contact across families, and its specific impacts on child development. In this study we develop a mobile sensing platform that can provide objective, unobtrusive, and continuous measurements of physical contact in naturalistic home interactions. Using commercially available motion detectors, our model reaches an accuracy of 0.870 (std: 0.059) for a second-by-second binary classification of holding. In addition, we detail five assessment scenarios applicable to the development of activity recognition models for social science research, where required accuracy may vary as a function of the intended use. Finally, we propose a grand vision for leveraging mobile sensors to access high-density markers of multiple determinants of early parent-child interactions, with implications for basic science and intervention."
 
 # Summary. An optional shortened abstract.
-summary = "A mobile visual clothing search system is presented whereby a smart phone user can either choose a social networking image or capture a new photo of a person wearing clothing of interest and search for similar clothing in a large cloud-based ecommerce database. The phone's GPS location is used to re-rank results by retail store location, to inform the user of local stores where similar clothing items can be tried on."
+summary = ""
 
 # Digital Object Identifier (DOI)
 doi = "10.1145/3328935"
@@ -46,15 +46,15 @@ tags = ["machine learning", "activity detection", "mother-infant research"]
 projects = [""]
 
 # Links (optional).
-url_pdf = "http://eprints.soton.ac.uk/352095/1/Cushen-IMV2013.pdf"
-url_preprint = "http://eprints.soton.ac.uk/352095/1/Cushen-IMV2013.pdf"
-url_code = "#"
-url_dataset = "#"
+url_pdf = "https://www.researchgate.net/publication/333990676_Automated_Detection_of_Infant_Holding_Using_Wearable_Sensing_Implications_for_Developmental_Science_And_Intervention"
+url_preprint = ""
+url_code = ""
+url_dataset = ""
 url_project = ""
-url_slides = "#"
-url_video = "#"
-url_poster = "#"
-url_source = "#"
+url_slides = "https://www.dropbox.com/s/jdal95194tkxk60/infant_holding_ubicomp.pptx?dl=0"
+url_video = "https://www.dropbox.com/s/hlemg7084d6ug2c/Ubicomp_Xuewen_Yao.mp4?dl=0"
+url_poster = ""
+url_source = ""
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
