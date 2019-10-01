@@ -10,7 +10,7 @@ subtitle = ""
 
 # Date format for experience
 #   Refer to https://sourcethemes.com/academic/docs/customization/#date-format
-date_format = "2006-01-02"
+date_format = "January 2006"
 
 # Experiences.
 #   Add/remove as many `[[experience]]` blocks below as you like.
@@ -22,7 +22,7 @@ date_format = "2006-01-02"
   company = "The University of Texas at Austin"
   company_url = ""
   location = "Austin, TX"
-  date_start = "2018-08-26"
+  date_start = "August 2018"
   date_end = ""
   description = """
   * Collected and cleaned 60 hours of home recording audio data
@@ -35,8 +35,8 @@ date_format = "2006-01-02"
   company = "Georgia Institute of Technology"
   company_url = ""
   location = "Atlanta, GA"
-  date_start = "2016-08-26"
-  date_end = "2018-05-04"
+  date_start = "August 2016"
+  date_end = "May 2018"
   description = """
   * Worked on activity recognition using wearable motion sensors 
   * Soldered and compared the performance of multiple motion sensors 
@@ -50,8 +50,8 @@ date_format = "2006-01-02"
   company = "Amazon.com"
   company_url = ""
   location = "Seattle, WA"
-  date_start = "2017-05-09"
-  date_end = "2017-07-30"
+  date_start = "May 2017"
+  date_end = "July 2017"
   description = """
   * Worked with Amazon Search User Experience
   * Used natural language processing to analyze user's queries and search history
@@ -64,8 +64,8 @@ date_format = "2006-01-02"
   company = "City University London"
   company_url = ""
   location = "London, UK"
-  date_start = "2015-06-01"
-  date_end = "2015-08-01"
+  date_start = "June 2015"
+  date_end = "August 2015"
   description = """
   * Worked on privacy-preserving speaker verification and identification
   * Self-studied and programmed MFCC (Mel-Frequency Cesptral Coefficients) and GMM (Gaussian Mixture Models) to achieve speaker verification in Matlab
