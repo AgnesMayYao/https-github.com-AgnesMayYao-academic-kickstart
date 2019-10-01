@@ -14,7 +14,7 @@ publishDate = 2017-01-01T00:00:00
 authors = ["Xuewen Yao", "Thomas Ploetz", "McKensey Johnson", "Kaya de Barbaro"]
 
 # Location of event.
-location = "Baltimore, Maryland, USA"
+location = "Baltimore, MD, USA"
 
 # Name of event and optional event URL.
 event = "2019 Society for Research in Child Development Biennial Meeting"
