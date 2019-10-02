@@ -4,7 +4,7 @@ subtitle = ""
 
 date = 2019-10-01T00:00:00
 lastmod = 2019-10-01T00:00:00
-draft = yes
+draft = true
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
 authors = ["admin"]
