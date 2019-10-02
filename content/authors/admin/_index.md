@@ -18,7 +18,7 @@ organizations:
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: My research interests include deep learning, wearable computing, and activity/affect detection.
 
 interests:
 - Wearable Computing
@@ -75,18 +75,11 @@ user_groups:
 - Visitors
 ---
 
-I am currently working as a PhD student at Daily Activity Lab at the University of Texas at Austin.
+I am a PhD student at Daily Activity Lab at the University of Texas at Austin. I am interested in leveraging wearable/mobile sensors and machine learning algorithms to analyze and model human signals. In particular, I study the (stress) signals from mother-infant pairs collected longitudinally through their daily interactions. 
 
-a PhD student at the Electrical and Computer Engineering The University of Texas at Austin
-Daily Activily Lab at Institute of Mental Health Reaserch
+~"In-the-wild"~ dataset and ~individual differences~ are two characteristics in my research. "In-the-wild" datasets are much noisier and harder to work with comparing to lab data, but they reflect and better model our real world. I intend to build models that can detail individual differences as in health-related applications, it is not enough to have a satisfactory mean accuracy. The model needs to be good with each data.
 
-research: human signals, stress signals from mother-infant pairs, daily activities
-longitudinal data, noisy dataset, wearable sensors, individual differences
-experiece with motion and audio sensors, developed algorithm for holding behaviro detection, audi classifcation, vocal tone
-
-access the basic mechanisms of maternal mental health and infant social-emotional development, and ultimately to develop “just in time” interventions for cases of high risk, such as the transmission of risks for depression from mothers to infants.
-
-
+I have worked with motion and audio sensors extensively and developed models for parent holding behaviors, parent affect classification and infant crying/fussing classification.
 
 
 
