@@ -45,15 +45,15 @@ Example slurm file
 #----------------------------------------------------
 # Example SLURM job script to run code
 #----------------------------------------------------
-#SBATCH -J lab_job	 		# Job name
-#SBATCH -o console_output.txt  		 # Name of stdout output file
+#SBATCH -J lab_job	 		                # Job name
+#SBATCH -o console_output.txt  		      # Name of stdout output file
 #SBATCH -e console_error_output.txt   	# Name of stdout output error file
-#SBATCH -p normal        			# Queue name
-#SBATCH -N 1            			 # Total number of nodes requested, multi-node means parallel
-#SBATCH -n 1             			# Total number of task requested
-#SBATCH -t 01:30:00	 		# Run time (hh:mm:ss) - 1.5 hours, time you ask for, it will stop running after this time whether it’s finished or not
+#SBATCH -p normal        			          # Queue name
+#SBATCH -N 1            			          # Total number of nodes requested, multi-node means parallel
+#SBATCH -n 1             			          # Total number of task requested
+#SBATCH -t 01:30:00	 		                # Run time (hh:mm:ss) your allocation ends in 1.5 h (program can be unfinished)
 # The next line is required if the user has more than one project
-#SBATCH -A XXXXl 		# Project/allocation number, the one you apply with
+#SBATCH -A XXXX 		                    # Project/allocation number, the one you apply to TACC with
 # This example will run 1 task on 1 nodes
 # Launch the job, the file you want to run 
 python ./file.py
