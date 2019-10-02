@@ -6,7 +6,7 @@ title = "Analysis of Diurnal and Seasonal Mood using Twitter Data"
 date = 2017-12-01T00:00:00
 
 # Project summary to display on homepage.
-summary = "An example of using the in-built project page."
+summary = ""
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
