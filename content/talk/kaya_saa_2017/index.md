@@ -22,7 +22,7 @@ event = "Conference of the Society for Ambulatory Assessment 2017"
 event_url = ""
 
 # Abstract. What's your talk about?
-abstract = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam."
+abstract = ""
 
 # Summary. An optional shortened abstract.
 summary = ""
@@ -32,7 +32,7 @@ featured = false
 
 # Tags (optional).
 #   Set `tags = []` for no tags, or use the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
-tags = []
+tags = ["mother-infant research", "wearable computing"]
 
 # Markdown Slides (optional).
 #   Associate this talk with Markdown slides.
