@@ -44,11 +44,11 @@ subtitle = ""
  # CSS class.
  # css_class = ""
 +++
-## Glacier National Park, Montana, July 2019
-#### Most were from Hidden Lake Trail and Grinnell Glacier Trail.
+Glacier National Park, Montana, July 2019
+Most were from Hidden Lake Trail and Grinnell Glacier Trail.
 {{< gallery album="gallery/glacier" >}} 
 
-## Yosemite National Park, California, July 2019
-#### Hiked to the top to Half Dome! 
+Yosemite National Park, California, July 2019
+Hiked to the top to Half Dome! 
 {{< gallery album="gallery/yosemite" >}} 
 
