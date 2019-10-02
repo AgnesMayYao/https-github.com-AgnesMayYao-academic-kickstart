@@ -77,7 +77,7 @@ user_groups:
 
 I am a PhD student at Daily Activity Lab at the University of Texas at Austin. I am interested in leveraging wearable/mobile sensors and machine learning algorithms to analyze and model human signals. In particular, I study the (stress) signals from mother-infant pairs collected longitudinally through their daily interactions. 
 
-~"In-the-wild"~ dataset and ~individual differences~ are two characteristics in my research. "In-the-wild" datasets are much noisier and harder to work with comparing to lab data, but they reflect and better model our real world. I intend to build models that can detail individual differences as in health-related applications, it is not enough to have a satisfactory mean accuracy. The model needs to be good with each data.
+~"In-the-wild"~ dataset and ~individual differences~ are two characteristics in my research. "In-the-wild" datasets are much noisier and harder to work with comparing to lab data, but they reflect and better model our real world. I intend to build models that can detail individual differences as in health-related applications, it is not enough to have a satisfactory mean accuracy. The model needs to be good with each data point.
 
 I have worked with motion and audio sensors extensively and developed models for parent holding behaviors, parent affect classification and infant crying/fussing classification.
 
