@@ -47,6 +47,5 @@ subtitle = ""
 Glacier National Park, Montana, July 2019
 Most were from Hidden Lake Trail and Grinnell Glacier Trail.
 {{< gallery album="gallery/glacier" >}} 
-{{< gallery album="gallery/yosemite" >}} 
 
 
