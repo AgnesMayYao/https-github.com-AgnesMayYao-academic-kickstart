@@ -6,7 +6,9 @@ title = "Towards Understanding Regularization in Normalization Layers in Deep Ne
 date = 2019-05-01T00:00:00
 
 # Project summary to display on homepage.
-summary = "Compared the regularization effect of batch normalization, layer normalization, instance normalization, group normalization and dropout using Convolutional Neural Nets on CIFAR-10 dataset"
+summary = "Studied batch normalization
+
+Compared the regularization effect of batch normalization, layer normalization, instance normalization, group normalization and dropout using Convolutional Neural Nets on CIFAR-10 dataset"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
@@ -37,7 +39,7 @@ url_code = ""
 # To use, add an image named `featured.jpg/png` to your project's folder. 
 [image]
   # Caption (optional)
-  caption = "Photo by rawpixel on Unsplash"
+  # caption = "Photo by rawpixel on Unsplash"
   
   # Focal point (optional)
   # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
