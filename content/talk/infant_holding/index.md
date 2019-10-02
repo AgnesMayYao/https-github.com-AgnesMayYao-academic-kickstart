@@ -21,7 +21,7 @@ event = "2019 Society for Research in Child Development Biennial Meeting"
 event_url = "https://www.srcd.org/event/srcd-2019-biennial-meeting"
 
 # Abstract. What's your talk about?
-abstract = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam."
+abstract = ""
 
 # Summary. An optional shortened abstract.
 summary = ""
