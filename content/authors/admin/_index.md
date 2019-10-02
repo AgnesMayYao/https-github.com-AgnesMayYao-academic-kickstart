@@ -21,9 +21,11 @@ organizations:
 bio: My research interests include distributed robotics, mobile computing and programmable matter.
 
 interests:
+- Wearable Computing
 - Deep Learning
 - Activity Recognition
 - Affect Detection
+
 
 education:
   courses:
@@ -73,4 +75,20 @@ user_groups:
 - Visitors
 ---
 
-Xuewen Yao is a PhD student at the University of Texas at Austin. Her current research aims to ..
+I am currently working as a PhD student at Daily Activity Lab at the University of Texas at Austin.
+
+a PhD student at the Electrical and Computer Engineering The University of Texas at Austin
+Daily Activily Lab at Institute of Mental Health Reaserch
+
+research: human signals, stress signals from mother-infant pairs, daily activities
+longitudinal data, noisy dataset, wearable sensors, individual differences
+experiece with motion and audio sensors, developed algorithm for holding behaviro detection, audi classifcation, vocal tone
+
+access the basic mechanisms of maternal mental health and infant social-emotional development, and ultimately to develop “just in time” interventions for cases of high risk, such as the transmission of risks for depression from mothers to infants.
+
+
+
+
+
+
+
