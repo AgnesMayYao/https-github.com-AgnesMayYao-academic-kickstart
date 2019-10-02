@@ -31,7 +31,7 @@ featured = true
 
 # Tags (optional).
 #   Set `tags = []` for no tags, or use the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
-tags = []
+tags = ["mother-infant research", "machine learning"]
 
 # Markdown Slides (optional).
 #   Associate this talk with Markdown slides.
