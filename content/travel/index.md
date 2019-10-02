@@ -48,7 +48,4 @@ subtitle = ""
 #### Most were from Hidden Lake Trail and Grinnell Glacier Trail.
 {{< gallery album="gallery/glacier" >}} 
 
-## Yosemite National Park, California, July 2019
-#### Hiked to the top to Half Dome! 
-{{< gallery album="gallery/yosemite" >}} 
 
