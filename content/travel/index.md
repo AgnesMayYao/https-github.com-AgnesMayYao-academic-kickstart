@@ -44,6 +44,6 @@ subtitle = ""
  # CSS class.
  # css_class = ""
 +++
-
-{{< gallery album="gallery" >}} 
+These photos were taken in Glacier National Park in Montana in July 2019. Most of them were from Hidden Lake Trail and Grinnell Glacier Trail.
+{{< gallery album="gallery/glacier" >}} 
 
