@@ -11,7 +11,7 @@ subtitle = ""
 
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.
-  columns = "4"
+  columns = "2"
 
 [design.background]
   # Apply a background color, gradient, or image.
@@ -20,7 +20,7 @@ subtitle = ""
   #   Any HTML color name or Hex value is valid.
 
   # Background color.
-  color = "#9E4770"
+  # color = "#9E4770"
   
   # Background gradient.
   # gradient_start = "DarkGreen"
