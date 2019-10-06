@@ -91,10 +91,6 @@ python ./file.py
 4. Watch the job
   * 
   ```shell
-  login2.hikari(41)$ squeue
-  ```
-  * 
-  ```shell
   login2.hikari(41)$ watch squeue
   login2.hikari(29)$ squeue
        JOBID   PARTITION     NAME     USER ST       TIME  NODES NODELIST(REASON)
@@ -102,12 +98,14 @@ python ./file.py
   ```
 5. Check console output
   ```shell
-  cat console_output.txt (the one you define in slurm)
+  cat console_output.txt 
   ```
+  * the file you define in slurm
 6. Cancel job
   ```shell
-  login2.hikari(41)$ scancel 47767 (scancel JOBID)
+  login2.hikari(41)$ scancel 47767 
   ```
+  * scancel JOBID
     
 ## Run
 ### Method 2 (idev)
