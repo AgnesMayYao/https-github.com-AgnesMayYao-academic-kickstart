@@ -66,7 +66,7 @@ summary = "use TACC to run code / train model"
 1. Do not run the code directly at login.
 2. Create a .slurm file
   * Example slurm file below:
-```slurm
+```shell
 #!/bin/bash
 #----------------------------------------------------
 # Example SLURM job script to run code
