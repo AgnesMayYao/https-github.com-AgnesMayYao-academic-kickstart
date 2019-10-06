@@ -63,9 +63,9 @@ summary = "use TACC to run code / train model"
   
 ## Run
 ### Method 1 (sbatch)
-  #### Do not run the code directly at login.
-  #### Create a .slurm file
-  #### Example slurm file below:
+1. Do not run the code directly at login.
+2. Create a .slurm file
+  * Example slurm file below:
 ```slurm
 #!/bin/bash
 #----------------------------------------------------
@@ -84,33 +84,57 @@ summary = "use TACC to run code / train model"
 # Launch the job, the file you want to run 
 python ./file.py
 ```
-  #### login2.hikari(26)$ sbatch your_filename.slurm
-  #### Watch the job
-    ##### squeue
-    ##### watch squeue
-          * login2.hikari(29)$ squeue
-             JOBID   PARTITION     NAME     USER ST       TIME  NODES NODELIST(REASON)
-             47767      normal  lab_job   xy0000  R       0:06      1 c262-102
-  #### Check console output
-    * cat console_output.txt (the one you define in slurm)
-  #### Cancel job
-    * login2.hikari(41)$ scancel 47767 (scancel JOBID)
+3. Run slurm
+```shell
+  login2.hikari(26)$ sbatch your_filename.slurm
+```
+4. Watch the job
+  * 
+  ```shell
+  login2.hikari(41)$ squeue
+  ```
+  * 
+  ```shell
+  login2.hikari(41)$ watch squeue
+  login2.hikari(29)$ squeue
+       JOBID   PARTITION     NAME     USER ST       TIME  NODES NODELIST(REASON)
+       47767      normal  lab_job   xy0000  R       0:06      1 c262-102
+  ```
+5. Check console output
+  ```shell
+  cat console_output.txt (the one you define in slurm)
+  ```
+6. Cancel job
+  ```shell
+  login2.hikari(41)$ scancel 47767 (scancel JOBID)
+  ```
     
 ## Run
 ### Method 2 (idev)
-1. login2.hikari(36)$ idev -t 01:30:00 
+1. 
+  ```shell
+  login2.hikari(36)$ idev -t 01:30:00 
+  ```
   * idev: interactive development something
   * -t the total time you requested
   * This one doesn’t need slurm file 
-2. c262-104.hikari(2)$ python file.py 
+2. 
+  ```shell
+  c262-104.hikari(2)$ python file.py 
+  ```
   * Run the code as normal like in a terminal, same speed as the one with slurm
-3. c262-104.hikari(3)$ squeue
+3. 
+  ```shell
+  c262-104.hikari(3)$ squeue
              JOBID   PARTITION     NAME     USER ST       TIME  NODES NODELIST(REASON)
            47769      normal idv08693   xy0000  R       3:20      1 c262-104
+  ```
 4. Logout
-  * c262-104.hikari(4)$ exit
-  * Connection to c262-104 closed.
-  * Cleaning up: submitted job (yes) removing job 47769.
+  ```shell
+  c262-104.hikari(4)$ exit
+  Connection to c262-104 closed.
+  Cleaning up: submitted job (yes) removing job 47769.
+  ```
   
 ## Deep Learning Using Python
 1. Use Python 3 if you need h5py
