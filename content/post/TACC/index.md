@@ -37,9 +37,35 @@ summary = "use TACC to run code / train model"
 
 
 +++
-{{< gdocs src="https://docs.google.com/presentation/d/e/2PACX-1vQ5XM8CYAA18kBNhydN3aE9-OnR8BnDOI4gb7_lfOYV11RqKHrCpfTd5KIaRYSAUhSgJfmkS8LLxTde/embed?start=true&loop=true&delayms=15000" >}}
+## Before you begin
+1. Create a TACC account (https://portal.tacc.utexas.edu/)
+2. Solve Multi-factor authentication at TACC user portal
+  * different from utexas multi-factor authentication
+  * https://portal.tacc.utexas.edu/tutorials/multifactor-authentication
 
-Example slurm file
+## Login
+1. ```shell
+    ssh xy0000@hikari.tacc.utexas.edu
+   ```
+  * Replace xy0000 with your own eid
+  * Replace hikari with your own system (eg. maverick2, lonestar5) 
+2. Login using your TACC password and multi-factor authentication token code
+
+## Transfer file
+```shell
+  # For file
+  localhost$ scp path/to/file xy0000@maverick2.tacc.utexas.edu:\$WORK/path
+  # For folder
+  localhost$ tar cvf ./mydata.tar mydata                                   # create archive
+  localhost$ scp     ./mydata.tar xy0000@maverick2.tacc.utexas.edu:\$WORK  # transfer archive
+```
+  * **WORK** directory is usually larger than **HOME** directory
+  
+## Run
+### Method 1 (sbatch)
+  #### Do not run the code directly at login.
+  #### Create a .slurm file
+  #### Example slurm file below:
 ```slurm
 #!/bin/bash
 #----------------------------------------------------
@@ -58,3 +84,44 @@ Example slurm file
 # Launch the job, the file you want to run 
 python ./file.py
 ```
+  #### login2.hikari(26)$ sbatch your_filename.slurm
+  #### Watch the job
+    ##### squeue
+    ##### watch squeue
+          * login2.hikari(29)$ squeue
+             JOBID   PARTITION     NAME     USER ST       TIME  NODES NODELIST(REASON)
+             47767      normal  lab_job   xy0000  R       0:06      1 c262-102
+  #### Check console output
+    * cat console_output.txt (the one you define in slurm)
+  #### Cancel job
+    * login2.hikari(41)$ scancel 47767 (scancel JOBID)
+    
+## Run
+### Method 2 (idev)
+1. login2.hikari(36)$ idev -t 01:30:00 
+  * idev: interactive development something
+  * -t the total time you requested
+  * This one doesn’t need slurm file 
+2. c262-104.hikari(2)$ python file.py 
+  * Run the code as normal like in a terminal, same speed as the one with slurm
+3. c262-104.hikari(3)$ squeue
+             JOBID   PARTITION     NAME     USER ST       TIME  NODES NODELIST(REASON)
+           47769      normal idv08693   xy0000  R       3:20      1 c262-104
+4. Logout
+  * c262-104.hikari(4)$ exit
+  * Connection to c262-104 closed.
+  * Cleaning up: submitted job (yes) removing job 47769.
+  
+## Deep Learning Using Python
+1. Use Python 3 if you need h5py
+2. Input following before running your code
+```shell
+  module load intel/17.0.4 python3/3.6.3
+  module load cuda/10.0 cudnn/7.6.2 nccl/2.4.7
+  pip3 install --user tensorflow-gpu==1.13.2
+  pip3 install --user keras
+  pip3 install --user h5py
+```
+
+
+
