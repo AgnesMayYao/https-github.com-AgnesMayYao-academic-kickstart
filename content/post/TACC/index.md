@@ -143,6 +143,7 @@ python ./file.py
   pip3 install --user tensorflow-gpu==1.13.2
   pip3 install --user keras
   pip3 install --user h5py
+  export HDF5_USE_FILE_LOCKING='FALSE'
 ```
 
 
