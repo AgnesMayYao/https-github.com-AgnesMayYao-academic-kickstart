@@ -75,7 +75,8 @@ user_groups:
 - Visitors
 ---
 
-I am a PhD student at Daily Activity Lab at the University of Texas at Austin. I am interested in leveraging wearable/mobile sensors and machine learning algorithms to analyze and model human signals. In particular, I study the (stress) signals from mother-infant pairs collected longitudinally through their daily interactions. 
+I am a PhD student at Daily Activity Lab at the University of Texas at Austin. I am interested in leveraging wearable/mobile sensors and machine learning algorithms to analyze and model human signals. In particular, I study the (stress) signals from mother-infant pairs collected longitudinally through their daily interactions. I am supervised by [Prof. Kaya de Barbaro](https://liberalarts.utexas.edu/psychology/faculty/kd26254) and [Prof. Edison Thomaz](http://users.ece.utexas.edu/~ethomaz/).
+
 
 _"In-the-wild"_ dataset and _individual differences_ are two characteristics in my research. "In-the-wild" datasets are much noisier and harder to work with comparing to lab data, but they reflect and better model our real world. I intend to build models that can detail individual differences as in health-related applications, it is not enough to have a satisfactory mean accuracy. The model needs to be good with each data point.
 
