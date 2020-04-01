@@ -4,7 +4,7 @@ subtitle = "Experience of Infant Fuss/Cry Classification"
 
 date = 2020-03-31T00:00:00
 lastmod = 2020-03-31T00:00:00
-draft = true
+draft = false
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
 authors = ["admin"]
@@ -37,113 +37,60 @@ summary = "my experience of using different features, models to classify differe
 
 
 +++
-## Before you begin
-1. Create a TACC account (https://portal.tacc.utexas.edu/)
-2. Solve Multi-factor authentication at TACC user portal
-  * different from utexas multi-factor authentication
-  * https://portal.tacc.utexas.edu/tutorials/multifactor-authentication
+## Common Audio Classification Procedure
+1. Preprocessing (filtering, smoothing, ..)
+2. Feature Engineering (accoustic features, spectrograms, audio encoders, combination, ..)
+3. Model training (classic machine learning models, CNNs, RNNs, ..)
+4. Postprocessing(smoothing)
 
-## Login
-1. ```shell
-    ssh xy0000@hikari.tacc.utexas.edu
-   ```
-  * Replace xy0000 with your own eid
-  * Replace hikari with your own system (eg. maverick2, lonestar5) 
-2. Login using your TACC password and multi-factor authentication token code
 
-## Transfer file
-```shell
-  # For file
-  localhost$ scp path/to/file xy0000@maverick2.tacc.utexas.edu:\$WORK/path
-  # For folder
-  localhost$ tar cvf ./mydata.tar mydata                                   # create archive
-  localhost$ scp     ./mydata.tar xy0000@maverick2.tacc.utexas.edu:\$WORK  # transfer archive
-```
-  * **WORK** directory is usually larger than **HOME** directory
+## Preprocessing
+1. Know your data, examine your data
+  * if you give trash to your ML algorithm, it will give back trash.
+  * Remove irrelevant noises (eg. silence, beginning, ending,..). Give fewer confusing noises to your model and help your model to focus on the necessary.
+2. Filtering ([scipy.signal](https://docs.scipy.org/doc/scipy-0.16.1/reference/signal.html))
+  * High pass filter, low pass filter, bandpass filter
+  * Eg. My project focuses on infant noises and infants have F0 > 400 Hz. So any sound doesn't have high energy at frequencies > 400 Hz should be excluded.
+3. Smoothing ([scipy.signal](https://docs.scipy.org/doc/scipy-0.16.1/reference/signal.html))
+  * reduce noise from white noises
+  * median filter, Savitzky-Golay filter, ...
+4. Voice Activity Detection
+  * WebRTC Voice Activity Detector (VAD) (open source), CMU Sphinx, ...
   
-## Run
-### Method 1 (sbatch)
-1. Do not run the code directly at login.
-2. Create a .slurm file
-  * Example slurm file below:
-```shell
-#!/bin/bash
-#----------------------------------------------------
-# Example SLURM job script to run code
-#----------------------------------------------------
-#SBATCH -J lab_job	 		                # Job name
-#SBATCH -o console_output.txt  		      # Name of stdout output file
-#SBATCH -e console_error_output.txt   	# Name of stdout output error file
-#SBATCH -p normal        			          # Queue name
-#SBATCH -N 1            			          # Total number of nodes requested, multi-node means parallel
-#SBATCH -n 1             			          # Total number of task requested
-#SBATCH -t 01:30:00	 		                # Run time (hh:mm:ss) your allocation ends in 1.5 h (program can be unfinished)
-# The next line is required if the user has more than one project
-#SBATCH -A XXXX 		                    # Project/allocation number, the one you apply to TACC with
-# This example will run 1 task on 1 nodes
-# Launch the job, the file you want to run 
-python ./file.py
-```
-3. Run slurm
-```shell
-  login2.hikari(26)$ sbatch your_filename.slurm
-```
-4. Watch the job
-  * 
-  ```shell
-  login2.hikari(41)$ watch squeue
-  login2.hikari(29)$ squeue
-       JOBID   PARTITION     NAME     USER ST       TIME  NODES NODELIST(REASON)
-       47767      normal  lab_job   xy0000  R       0:06      1 c262-102
-  ```
-5. Check console output
-  ```shell
-  cat console_output.txt 
-  ```
-  * the file you define in slurm
-6. Cancel job
-  ```shell
-  login2.hikari(41)$ scancel 47767 
-  ```
-  * scancel JOBID
-    
-## Run
-### Method 2 (idev)
-1. 
-  ```shell
-  login2.hikari(36)$ idev -t 01:30:00 
-  ```
-  * idev: interactive development something
-  * -t the total time you requested
-  * This one doesn’t need slurm file 
-2. 
-  ```shell
-  c262-104.hikari(2)$ python file.py 
-  ```
-  * Run the code as normal like in a terminal, same speed as the one with slurm
-3. 
-  ```shell
-  c262-104.hikari(3)$ squeue
-             JOBID   PARTITION     NAME     USER ST       TIME  NODES NODELIST(REASON)
-           47769      normal idv08693   xy0000  R       3:20      1 c262-104
-  ```
-4. Logout
-  ```shell
-  c262-104.hikari(4)$ exit
-  Connection to c262-104 closed.
-  Cleaning up: submitted job (yes) removing job 47769.
-  ```
+
+## Feature Engineering
+1. Accoustic features
+  * Fundamental Frequency / Pitch, Zero Crossing Rate, MFCCs, Harmonic-to-noise Ratio, .... (commonly used)
+  * libraries: librosa (easy to use), [pyAudioAnalysis](https://github.com/tyiannak/pyAudioAnalysis) (easy to use), yaafe, openSMILE, Matlab Audio Toolbox
+  * You can try openSMILE to extract 6000+ features and then PCA 
+  * **I suggest:** plot features with ground truth and manually select features that your want. No free lunch, and features work for other applications won't necessarily work for you. Learn your features so that you know why it works and why it doesn't.
+2. Spectrogram
+  * Energy at every frequency vs. time
+  * Really shows a pattern. Used in my research
+3. Other features
+  * Bag-of-Audio-Words: One codebook is learnt for 65 LLDs and one for 65 delta LLDs. 
+  * AUDEEP: Unsupervised representation learning with recurrent sequence-to-sequence autoencoders
+4. Combination of different features
+
+
   
-## Deep Learning Using Python
-1. Use Python 3 if you need h5py
-2. Input following before running your code
-```shell
-  module load intel/17.0.4 python3/3.6.3
-  module load cuda/10.0 cudnn/7.6.2 nccl/2.4.7
-  pip3 install --user tensorflow-gpu==1.13.2
-  pip3 install --user keras
-  pip3 install --user h5py
-  export HDF5_USE_FILE_LOCKING='FALSE'
-```
+## Model Training
+1. Classic Machine learning models (tune your parameters)
+2. Deep learning
+  * CNNs: good for spectrograms
+  * RNNs: use it when your data show a strong sequential pattern, eg. infant fussing always leads to infant crying (which is wrong). 
+3. CNNs + RNNs and other advanced/complicated/deeper models
+  * Do the basics first. Make sure your preprocessing, features are really working. Though temptating, don't do this unless you really have tried everything else.
+  * Learn these complicated models before you try blindly. Know how they work and where they work. 
+  * Advanced/complicated/deeper models can have more parameters/hyperparameters, which is harder to tune and takes longer time to train. You don't have a huge dataset/supersupercomputer for reallife audio...
+4. Unbalanced dataset
+  * upsampling, downsampling
+  * SMOTE (super long time for spectrograms)
+  * [imbalanced-learn library](https://imbalanced-learn.readthedocs.io/en/stable/index.html)
+  
+## Postprocessing
+1. Smoothing
+  * Remove isolated predictions in the middle of nowhere
+  * Combine neighbouring predictions
 
 
